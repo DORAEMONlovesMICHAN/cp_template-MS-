@@ -32,6 +32,10 @@ void solve (void)
 }
 int main(void)
 {
+    ios::sync_with_stdio(false); // For faster I/O
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
     ll tc;
     cin>>tc;
     while(tc>0)
