@@ -4,7 +4,7 @@ using namespace std;
 /*code by Sushanth_iitbbs*/
 /*cf profile :- Sushanth_iitbbs*/
 
-
+/* Trust the process ~Dhoni */
 // some data types
 
 #define ll long long
