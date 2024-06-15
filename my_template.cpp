@@ -5,6 +5,10 @@ using namespace std;
 /*cf profile :- Sushanth_iitbbs*/
 
 /* Trust the process ~Dhoni */
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
+#pragma GCC optimization ("O3")
+#pragma GCC optimization ("unroll-loops")
 // some data types
 
 #define ll long long
