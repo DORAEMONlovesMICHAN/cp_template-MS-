@@ -19,6 +19,7 @@ using namespace std;
 #define mii map<int, int>
 #define si set<int>
 #define sc set<char>
+#define gcd(m,n) __gcd(m,n)
 
 // some for loops
 
