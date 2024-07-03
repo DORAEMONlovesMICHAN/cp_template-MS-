@@ -28,6 +28,7 @@ using namespace std;
 #define ef(i,s,e) for(long long int i=s;i<=e;i++)
 #define pb push_back
 #define eb emplace_back
+#define all(x) x.begin(),x.end()
 
 template<typename T>istream & operator >> (istream &in, vector<T> &a){for(auto &x:a)in>>x;return in;}
 template<typename T>ostream & operator << (ostream &out, vector<T> &a){for(auto &x:a)out<<x<<" ";return out;}
