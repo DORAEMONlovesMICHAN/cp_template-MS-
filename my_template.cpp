@@ -36,7 +36,7 @@ template<typename T,typename K>istream & operator >> (istream &in,  pair<T,K> &a
 template<typename T,typename K>ostream & operator << (ostream &out, pair<T,K> &a){out<<a.F<<" "<<a.S;return out;}
 
 
-void solve (void)
+void Sushanth_IITbbs (void)
 {
 
 }
@@ -50,7 +50,7 @@ int main(void)
     cin>>tc;
     while(tc>0)
     {
-        solve();
+        Sushanth_IITbbs();
         tc--;
     }
     return 0;
