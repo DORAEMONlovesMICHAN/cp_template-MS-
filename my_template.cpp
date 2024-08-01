@@ -36,19 +36,6 @@ template<typename T,typename K>istream & operator >> (istream &in,  pair<T,K> &a
 template<typename T,typename K>ostream & operator << (ostream &out, pair<T,K> &a){out<<a.F<<" "<<a.S;return out;}
 
 
-// for MEX of an vector;
-int calculateMEX(const vector<int>& vec) {
-    // Create a set to store the unique elements of the vector
-    unordered_set<int> uniqueElements(vec.begin(), vec.end());
-
-    // Iterate from 0 upwards to find the smallest missing non-negative integer
-    int MEX = 0;
-    while (uniqueElements.find(MEX) != uniqueElements.end()) {
-        MEX++;
-    }
-
-    return MEX;
-}
 
 
 void Sushanth_IITbbs (void)
